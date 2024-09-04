@@ -1,0 +1,28 @@
+[
+{
+    "id": "00001",
+    "nombre": "Basteri",
+    "precio": "$650.00",
+    "descuento": "0",
+    "descripción": "el Zapato más bonito",
+    "marca": "Equis",
+    "talla1": "25",
+    "talla2": "26",
+    "talla3": "27",
+    "talla4": "28",
+    "talla5": "29",
+    "talla6": "30",
+    "talla7": "31",
+    "talla8": "32",
+    "talla9": "33",
+    "talla10": "34",
+    "talla11": "35",
+    "color1": "cafe",
+    "color2": "negro",
+    "color3": "null",
+    "color4": "null",
+    "color5": "null",
+    "star": null,
+    "piture": "/000001.jpg"
+}
+]
