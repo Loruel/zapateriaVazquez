@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 export default function Filter() {
     return (
-        <div className='flex justify-center items-center w-full h-20 font-semibold'>
+        <div className='flex justify-center items-center w-full h-20 font-semibold bg-black text-white'>
 
             <Link to={'/woman'}>
                 <button className='mr-4'>
