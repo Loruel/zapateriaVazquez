@@ -1,13 +1,17 @@
-import { useContext } from "react"
+import { createContext, useContext, useState } from "react"
 
-const VazquezContext = useContext()
+const VazquezContext = createContext()
 
 export function VazquezProvider({ children }) {
+    const [openModal, setOpenModal] = useState(false)
 
+    const toggleModal = () => {
+        setOpenModal(!openModal);
+    }
 
     return (
 
-        <VazquezContext.Provider value={{}}>
+        <VazquezContext.Provider value={{openModal, toggleModal}}>
             {children}
         </VazquezContext.Provider>
 
