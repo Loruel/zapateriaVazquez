@@ -1,7 +1,7 @@
 import React from 'react'
-import FilterOg from '../components/filter/filterOg'
 import Zapatos from '../components/body/Zapatos'
 import { Link } from 'react-router-dom'
+import FilterOg from '../components/filter/FilterOg'
 
 export default function ManShoe() {
   return (
