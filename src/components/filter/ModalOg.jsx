@@ -12,40 +12,40 @@ export default function ModalOg() {
                     <h1 className='w-full text-center'>
                         Talla
                     </h1>
-                    <div className='flex space-x-5 justify-center'>
-                        <div className='flex justify-center items-center flex-col'>
+                    <div className='grid grid-cols-5'>
+                        <div className='flex justify-center items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 20
                             </p>
                         </div>
-                        <div className='flex justify-center items-center flex-col'>
+                        <div className='flex justify-center items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 21
                             </p>
                         </div>
-                        <div className='flex justify-center items-center flex-col'>
+                        <div className='flex justify-center items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 22
                             </p>
                         </div>
-                        <div className='flex justify-center items-center flex-col'>
+                        <div className='flex justify-center items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 23
                             </p>
                         </div>
-                        <div className='flex justify-center items-center flex-col'>
+                        <div className='flex justify-center items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 24
                             </p>
                         </div>
-                        <div className='flex justify-center items-center flex-col'>
+                        <div className='flex justify-center items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 25
                             </p>
                         </div>
@@ -58,39 +58,39 @@ export default function ModalOg() {
                         Color
                     </h1>
                     <div className='grid grid-cols-4'>
-                        <div className='flex justify-center items-center flex-col'>
+                        <div className='flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Negro
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center flex-col'>
+                        <div className='flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Blanco
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center flex-col'>
+                        <div className='flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Cafe
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center flex-col'>
+                        <div className='flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Azul
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center flex-col'>
+                        <div className='flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Rojo
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center flex-col'>
+                        <div className='flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Verde
                             </p>
                         </div>
@@ -103,39 +103,39 @@ export default function ModalOg() {
                         Marca
                     </h1>
                     <div className='grid grid-cols-3'>
-                        <div className='flex justify-center items-center'>
+                        <div className='flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Flexi
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center'>
+                        <div className=' flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Nike
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center'>
+                        <div className=' flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Adidas
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center'>
+                        <div className=' flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Brantano
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center'>
+                        <div className=' flex justify-start ml-2 items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Caribu
                             </p>
                         </div>
-                        <div className=' flex justify-center items-center'>
+                        <div className=' flex justify-start ml-2     items-center'>
                             <input className='border-black border-2' type="checkbox" />
-                            <p>
+                            <p className='ml-1'>
                                 Chabelo
                             </p>
                         </div>
