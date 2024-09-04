@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Promocion() {
     return (
-        <div className='relative w-full h-96 flex justify-center items-center p-5 -mt-2 '>
+        <div className='relative w-full h-96 flex justify-center items-center p-5 -mt-2 dark:bg-[#3b3b3b]'>
 
            {/*  <div className='absolute bottom-32 left-0 bg-yellow-300 w-36 h-6 text-sm flex justify-end items-center'>
                 <p className='mr-4'>
@@ -16,16 +16,16 @@ export default function Promocion() {
                 </p>
             </div>
 
-            <div className='w-full h-full shadow-black shadow-lg rounded-md'>
+            <div className='w-full h-full shadow-black shadow-lg rounded-2xl dark:bg-black '>
 
-                <div className='h-4/5 p-4 '>
-                    <img className='w-full h-full rounded-xl border-gray-200 border-2 p-4'
+                <div className='h-4/5 p-4'>
+                    <img className='w-full h-full rounded-xl border-gray-200 border-2 p-4 dark:bg-white'
                         src="/000001.jpg" alt="" />
                 </div>
 
                 <div className='h-1/5 flex '>
 
-                    <div className='w-9/12 p-1 -mt-1'>
+                    <div className='w-9/12 p-1 -mt-1 dark:text-white'>
 
                         <h1 className='w-full text-xl font-semibold text-center'>
                             Basteri
