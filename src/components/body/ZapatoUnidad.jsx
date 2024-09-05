@@ -6,13 +6,13 @@ import Footer from '../footer/Footer'
 export default function ZapatoUnidad() {
     return (
         <>
-            <div className='bg-white'>
+            <div className='bg-white dark:bg-[#3b3b3b]'>
                 <div className='relative w-full h-full flex justify-center items-center p-5 -mt-2  dark:bg-[#3b3b3b]'>
 
-                    <div className='w-full  dark:bg-black '>
+                    <div className='w-full dark:bg-[#3b3b3b] '>
 
                         <div>
-                            <h1 className='w-full text-3xl font-semibold text-center'>
+                            <h1 className='w-full text-3xl font-semibold text-center dark:text-white'>
                                 Basteri
                             </h1>
                         </div>
@@ -31,10 +31,10 @@ export default function ZapatoUnidad() {
                                     </h2>
 
                                     <div className='flex w-2/3 items-end ml-4 '>
-                                        <p className='text-gray-600 mr-2'>
+                                        <p className='text-gray-600 mr-2 dark:text-white'>
                                             Stock
                                         </p>
-                                        <div className='flex justify-center items-center border-gray-500 w-3/6 h-3/4 border-2 rounded-lg text-xs text-gray-600'>
+                                        <div className='flex justify-center items-center border-gray-500 w-3/6 h-3/4 border-2 rounded-lg text-xs text-gray-600 dark:text-white dark:border-white'>
                                             <p>
                                                 15
                                             </p>
@@ -62,7 +62,7 @@ export default function ZapatoUnidad() {
                 </div>
 
                 <div className='p-5'>
-                    <h2 className='w-full text-xl font-semibold'>
+                    <h2 className='w-full text-xl font-semibold dark:text-white'>
                         Color
                     </h2>
                     <div className='p-2 grid grid-cols-6 gap-x-2 gap-y-2'>
@@ -80,39 +80,39 @@ export default function ZapatoUnidad() {
                 </div>
 
                 <div className='p-5'>
-                    <h2 className='w-full text-xl font-semibold'>
+                    <h2 className='w-full text-xl font-semibold dark:text-white'>
                         Tallas
                     </h2>
-                    <div className='p-2 grid grid-cols-6 gap-x-2 gap-y-2'>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                    <div className='p-2 grid grid-cols-6 gap-x-2 gap-y-2 '>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             23
                         </p>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             24
                         </p>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             25
                         </p>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             26
                         </p>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             23
                         </p>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             24
                         </p>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             25
                         </p>
-                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center'>
+                        <p className='border-gray-200 border-2 w-10 h-10 rounded-full text-gray-500 flex justify-center items-center dark:text-white'>
                             26
                         </p>
                     </div>
                 </div>
 
                 <div className='p-5'>
-                    <p className='text-sm'>
+                    <p className='text-sm dark:text-white'>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
                     </p>
                 </div>
