@@ -30,13 +30,21 @@ export default function Login() {
                     </div>
                 </div>
 
-                <Link to={'/createacount'}>
-                    <div className='mt-5 text-sm text-center'>
-                        <p>
+                <div className='w-full flex justify-center items-center h-20'>
+                    <button className='bg-blue-600 w-1/4 h-8 rounded-lg text-white flex justify-center items-center'>
+                        Login
+                    </button>
+                </div>
+
+
+                <div className='mt-5 w-full flex justify-center items-center'>
+                    <Link to={'/createacount'}>
+                        <p className='text-blue-900 text-sm'>
                             Crear cuenta
                         </p>
-                    </div>
-                </Link>
+                    </Link>
+                </div>
+
 
             </div>
 

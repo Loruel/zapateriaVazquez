@@ -9,91 +9,54 @@ export default function ModalOg() {
         openModal && (
             <div className='w-full'>
                 <div className='bg-gray-200 rounded-lg m-2 justify-center'>
-                    <h1 className='w-full text-center'>
+                    <h1 className='w-full text-center font-semibold text-lg'>
                         Talla
                     </h1>
-                    <div className='grid grid-cols-5'>
-                        <div className='flex justify-center items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                20
-                            </p>
-                        </div>
-                        <div className='flex justify-center items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                21
-                            </p>
-                        </div>
-                        <div className='flex justify-center items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                22
-                            </p>
-                        </div>
-                        <div className='flex justify-center items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                23
-                            </p>
-                        </div>
-                        <div className='flex justify-center items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                24
-                            </p>
-                        </div>
-                        <div className='flex justify-center items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                25
-                            </p>
-                        </div>
+                    <div className='grid grid-cols-6 gap-y-2 p-2'>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            23.5
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            24
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            25
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            26
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            23
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            24
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            25
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full text-black flex justify-center items-center'>
+                            26
+                        </p>
                     </div>
                 </div>
 
 
                 <div className='bg-gray-200 rounded-lg m-2 justify-center'>
-                    <h1 className='w-full text-center'>
+                    <h1 className='w-full text-center font-semibold text-lg'>
                         Color
                     </h1>
-                    <div className='grid grid-cols-4'>
-                        <div className='flex justify-start ml-2 items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                Negro
-                            </p>
-                        </div>
-                        <div className='flex justify-start ml-2 items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                Blanco
-                            </p>
-                        </div>
-                        <div className='flex justify-start ml-2 items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                Cafe
-                            </p>
-                        </div>
-                        <div className='flex justify-start ml-2 items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                Azul
-                            </p>
-                        </div>
-                        <div className='flex justify-start ml-2 items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                Rojo
-                            </p>
-                        </div>
-                        <div className='flex justify-start ml-2 items-center'>
-                            <input className='border-black border-2' type="checkbox" />
-                            <p className='ml-1'>
-                                Verde
-                            </p>
-                        </div>
+                    <div className='grid grid-cols-6 gap-y-2 p-2'>
+
+                        <p className='border-black border w-10 h-10 rounded-full bg-black'>
+
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full bg-white'>
+
+                        </p>
+                        <p className='border-black border w-10 h-10 rounded-full bg-amber-200'>
+
+                        </p>
+
                     </div>
                 </div>
 
