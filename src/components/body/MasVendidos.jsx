@@ -12,6 +12,7 @@ export default function MasVendidos() {
 
             <div className='w-full grid grid-cols-2 gap-x-2 gap-y-4 mt-1 mb-4'>
 
+                
                 <div className='shadow-black shadow-lg w-full h-48 rounded-2xl dark:bg-black dark:text-white'>
                     <div className='h-4/5 p-2'>
                         <img className='w-full p-2 border-gray-200 border-2 rounded-lg dark:bg-white'

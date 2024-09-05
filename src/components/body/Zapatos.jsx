@@ -109,6 +109,13 @@ export default function Zapatos() {
                 </div>
 
             </div>
+
+            <div className='flex justify-center items-center'>
+                <button className='bg-blue-600 text-lg text-white w-3/5 h-8 rounded-xl'>
+                    Mostrar más
+                </button>
+            </div>
+
         </div>
 
     )
